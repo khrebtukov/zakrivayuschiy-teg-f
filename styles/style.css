@@ -13,8 +13,6 @@
 
 */
 
-/* ↓↓↓↓↓ GENERAL ↓↓↓↓↓ */
-
 .page {
   font-family: 'Inter', sans-serif;
   min-inline-size: 320px;
@@ -87,8 +85,6 @@
   box-shadow: 2px 2px 0 var(--accent-color);
 }
 
-/* ↓↓↓↓↓ HEADER ↓↓↓↓↓ */
-
 .header {
   background-color: var(--bg-color);
   border: 2px solid var(--accent-color);
@@ -114,8 +110,6 @@
   flex-direction: column;
   align-items: center;
 }
-
-/* ↓↓↓↓↓ THEME-MENU ↓↓↓↓↓ */
 
 .theme-menu__list {
   display: flex;
@@ -176,8 +170,6 @@
 .theme-menu__button:hover {
   opacity: 0.6;
 }
-
-/* ↓↓↓↓↓ CARD ↓↓↓↓↓ */
 
 .card {
   background-color: var(--bg-color);
@@ -292,8 +284,6 @@
   transition: box-shadow 0.3s ease;
 }
 
-/* ↓↓↓↓↓ DIALOG ↓↓↓↓↓ */
-
 .dialog {
   display: grid;
   gap: 30px;
@@ -351,8 +341,6 @@
   text-transform: uppercase;
 }
 
-/* ↓↓↓↓↓ MEDIA ↓↓↓↓↓ */
-
 @media (width <= 375px) {
   .card__image-label {
     inset-inline-end: 13px;
@@ -371,8 +359,6 @@
     padding: 32px 42px;
   }
 }
-
-/* ↓↓↓↓↓ SUPPORTS ↓↓↓↓↓ */
 
 @supports (font-variation-settings: normal) {
   .page {
